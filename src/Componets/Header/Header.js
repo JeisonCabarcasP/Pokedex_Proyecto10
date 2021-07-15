@@ -1,7 +1,9 @@
+import "./styles.css";
+import logo from "../../assets/imgs/logo.png"
 const Header = () => {
   const view = `
-<div>
-  <img src="" alt="Logo">
+<div class="header-container">
+  <img src="${logo}" alt="Logo">
   <a href="#">Pokedex</a>
 </div>
 `;
