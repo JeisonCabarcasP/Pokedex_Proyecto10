@@ -1,0 +1,10 @@
+.home-container {
+    height: 73vh;
+    background: rgb(175,14,14);
+    background: linear-gradient(180deg, rgba(175,14,14,1) 24%, rgba(203,154,154,1) 76%, rgba(255,255,255,1) 100%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

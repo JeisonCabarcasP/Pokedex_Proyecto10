@@ -1,0 +1,29 @@
+
+  .search {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40vw;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+
+  .search > .search-input {
+    width: inherit;
+    border-radius: 15px;
+    height: 30px;
+  }
+  
+.search > .search-buttons > a > .search-button{
+    width: 120px;
+    height: 40px;
+    background: #2e4595;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    color: aliceblue;
+}
