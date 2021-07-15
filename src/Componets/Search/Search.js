@@ -13,14 +13,14 @@ const Search = () => {
       `;
 
   document.addEventListener('click', () => {
-    const userSearch = document.getElementById("search--input").value;
+    const userSearch = document.getElementById("search-input").value;
     localStorage.setItem('userSearch', userSearch);
   });
 
   document.addEventListener('keypress', function(evento) {
     if (evento.keyCode === 13) {
      console.log("Hola jeison")
-     const userSearch = document.getElementById("search--input").value;
+     const userSearch = document.getElementById("search-input").value;
      localStorage.setItem('userSearch', userSearch);
      //router("#results");
     }

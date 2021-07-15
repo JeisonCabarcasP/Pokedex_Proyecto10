@@ -1,4 +1,5 @@
 import router from "./routes/index"
+import Results from "./views/Results/Results";
 import "./assets/global.css"
 
 
