@@ -5,7 +5,7 @@ const Search = () => {
   const view = `
             <div class="search">
                 <h1 class="search-title"><img src="${logo}" alt="Logo"></h1>
-                <input class="search-input" id="search-input" type="text">
+                <input placeholder="Ingresa tu pokemon" class="search-input" id="search-input" type="text">
                 <div class="search-buttons">   
                      <a href="#results"><button class="search-button">¡Encuentralo ya!</button></a>
                 </div>

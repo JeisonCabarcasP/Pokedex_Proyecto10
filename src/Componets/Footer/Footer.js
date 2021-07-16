@@ -1,4 +1,5 @@
 import "./styles.css";
+import "./mediaquery.css"
 import logo1 from "../../assets/imgs/facebook.png";
 import logo2 from "../../assets/imgs/github.png";
 import logo3 from "../../assets/imgs/instagram.png";
@@ -6,6 +7,7 @@ import logo4 from "../../assets/imgs/linkedin.png";
 
 const Footer = ()=>{
     const view = `
+    <div class="footer">
     <div class="container-footer1">
     <span class="span-tex1">Creado por: </span>
     <div class="data-footer">
@@ -21,7 +23,7 @@ const Footer = ()=>{
    <a href="https://www.instagram.com/jeisoncabarcas/"><img src="${logo3}" alt="Instagram" /></a>
    <a href="https://www.linkedin.com/in/jeisoncabarcas/"><img src="${logo4}" alt="Linkedin" /></a>
    </div>
-        
+   </div> 
   </div>`;
     return view;
     }
