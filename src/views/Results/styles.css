@@ -1,0 +1,46 @@
+.main-title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.main-title h1{
+    text-align: center;
+}
+.container-results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-results .container-img img{
+    width: 50vw;
+}
+.result-name{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.result-name span{
+    
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+.container-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-data1, .container-data2{
+padding: 10px;
+}
+.result-type, .result-weight, .result-height, .result-moves{
+    padding: 10px;
+}
