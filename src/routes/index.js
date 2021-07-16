@@ -7,11 +7,11 @@ import Footer from "../Componets/Footer/Footer";
 import Home from "../views/Home/Home";
 import Results from "../views/Results/Results";
 
-// const routes = {
-//     '': Homepage,
-//     '#home': Homepage,
-//     '#results': Results
-// };
+ const routes = {
+     '': Home,
+     '#home': Home,
+     '#results': Results
+ };
 
 const router = async (route) => {
 
@@ -23,10 +23,8 @@ const router = async (route) => {
 
     //vistas
     const main = document.querySelector('#main');
-    main.innerHTML = await Home(); 
-
-    const search = document.querySelector('#prueba');
-    search.innerHTML = await Results(); 
+    let render = routes[route] ? routes[route] : Home;
+    main.innerHTML = await render(); 
 }
 
 export default router;
