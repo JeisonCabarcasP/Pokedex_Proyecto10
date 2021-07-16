@@ -1,4 +1,5 @@
 import "./styles.css";
+import "./mediaquerys.css"
 import getData from "../../utils/getData";
 
 const Results = async() => {
@@ -10,7 +11,7 @@ const Results = async() => {
     const view = `
     <div class="main-title"><h1>¡Encontramos a tu Pokemon!</h1></div>
     <div class="container-results">
-        <div class="conatiner-img"><img src="${pokemon.sprites.other["official-artwork"].front_default}" alt="pokemon"></div>
+        <div class="container-img"><img src="${pokemon.sprites.other["official-artwork"].front_default}" alt="pokemon"></div>
         <div class="item-container">
         <div class="result-name"><span>${pokemon.name} </span><span>N° ${pokemon.id}</span></div>
         <div class="container-data" >

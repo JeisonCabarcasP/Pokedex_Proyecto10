@@ -5,12 +5,17 @@
     align-items: center;
     padding: 1rem;
 }
-
+.main-title h1{
+    text-align: center;
+}
 .container-results{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.container-results .container-img img{
+    width: 50vw;
 }
 .result-name{
     display: flex;
@@ -21,6 +26,7 @@
     padding: 1rem;
 }
 .result-name span{
+    
     padding: 5px;
     text-transform: capitalize;
     font-size: 2.5rem;
