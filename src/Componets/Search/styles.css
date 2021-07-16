@@ -19,11 +19,14 @@
   }
   
 .search > .search-buttons > a > .search-button{
-    width: 120px;
+    width: 160px;
     height: 40px;
     background: #2e4595;
     border-radius: 30px;
     cursor: pointer;
     border: none;
     color: aliceblue;
+}
+.search-title img {
+  width: 90vw;
 }

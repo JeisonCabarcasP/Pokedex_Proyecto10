@@ -1,0 +1,33 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color: #2e4595;
+    font-weight: bold;
+}
+.container-footer1, .container-footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+}
+.container-footer1 span, .container-footer2 span{
+    padding-bottom: 5px;
+}
+
+.data-footer{
+    display: flex;
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+}
+.redes a img {
+    width: 50px;
+}
