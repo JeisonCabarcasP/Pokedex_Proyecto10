@@ -13,6 +13,7 @@
 
 
   .search > .search-input {
+    min-width: 280px;
     width: inherit;
     border-radius: 15px;
     padding: 8px 16px;
