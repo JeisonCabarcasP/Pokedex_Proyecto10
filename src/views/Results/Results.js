@@ -20,8 +20,8 @@ const Results = async() => {
         <div class="result-weight"><span>Peso: </span><span>${peso} kg</span></div></div>
         <div class="container-data2">
          <div class="result-height"><span>Altura: </span><span>${altura} m</span></div>
-        <div class="result-moves"><span>Movimientos principales: </span><br>
-        <span>${pokemon.moves[0].move.name}, ${pokemon.moves[1].move.name},<br> ${pokemon.moves[2].move.name}, ${pokemon.moves[3].move.name}</span></div></div> </div>
+        <div class="result-moves"><span>Movimiento principal: </span><br>
+        <span>${pokemon.moves[0].move.name}</span></div></div> </div>
        
         </div>
     </div>`;
